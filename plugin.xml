@@ -88,7 +88,13 @@
     <framework src="src/ios/libs/GoogleNetworkingUtilities.framework" custom="true" />
     <framework src="src/ios/libs/GoogleSignIn.framework" custom="true" />
     <framework src="src/ios/libs/GoogleSymbolUtilities.framework" custom="true" />
-    <framework src="src/ios/libs/GoogleUtilities.framework" custom="true" />
+    <framework src="Fabric" type="podspec" spec="~> 1.9" />
+    <framework src="Crashlytics" type="podspec" spec="~> 3.12" />
+    <framework src="FirebaseAnalytics" type="podspec" spec="~> 4.2" />
+    <framework src="FirebaseMessaging" type="podspec" spec="~> 4.0.2" />
+    <framework src="FirebaseAuth" type="podspec" spec="~> 4.6.1" />
+    <framework src="FirebaseRemoteConfig" type="podspec" spec="~> 2.1.3" />
+    <framework src="FirebasePerformance" type="podspec" spec="~> 1.1.3" />
 
     <!-- System frameworks -->
     <framework src="AddressBook.framework" weak="true" />
